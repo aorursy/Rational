@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="urisyasbrain" name="RationalTest" skipped="0" tests="7" time="0.062" timestamp="2022-09-16T18:57:37">
+  <properties>
+    <property name="ant.library.dir" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="18" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="MS874" />
+    <property name="java.class.path" value="C:\Users\aoreyv\.jdks\openjdk-18!\java.base;C:\Users\aoreyv\.jdks\openjdk-18!\java.compiler;C:\Users\aoreyv\.jdks\openjdk-18!\java.datatransfer;C:\Users\aoreyv\.jdks\openjdk-18!\java.desktop;C:\Users\aoreyv\.jdks\openjdk-18!\java.instrument;C:\Users\aoreyv\.jdks\openjdk-18!\java.logging;C:\Users\aoreyv\.jdks\openjdk-18!\java.management;C:\Users\aoreyv\.jdks\openjdk-18!\java.management.rmi;C:\Users\aoreyv\.jdks\openjdk-18!\java.naming;C:\Users\aoreyv\.jdks\openjdk-18!\java.net.http;C:\Users\aoreyv\.jdks\openjdk-18!\java.prefs;C:\Users\aoreyv\.jdks\openjdk-18!\java.rmi;C:\Users\aoreyv\.jdks\openjdk-18!\java.scripting;C:\Users\aoreyv\.jdks\openjdk-18!\java.se;C:\Users\aoreyv\.jdks\openjdk-18!\java.security.jgss;C:\Users\aoreyv\.jdks\openjdk-18!\java.security.sasl;C:\Users\aoreyv\.jdks\openjdk-18!\java.smartcardio;C:\Users\aoreyv\.jdks\openjdk-18!\java.sql;C:\Users\aoreyv\.jdks\openjdk-18!\java.sql.rowset;C:\Users\aoreyv\.jdks\openjdk-18!\java.transaction.xa;C:\Users\aoreyv\.jdks\openjdk-18!\java.xml;C:\Users\aoreyv\.jdks\openjdk-18!\java.xml.crypto;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.accessibility;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.attach;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.charsets;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.compiler;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.crypto.cryptoki;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.crypto.ec;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.crypto.mscapi;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.dynalink;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.editpad;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.hotspot.agent;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.httpserver;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.incubator.foreign;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.incubator.vector;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.internal.ed;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.internal.jvmstat;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.internal.le;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.internal.opt;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.internal.vm.ci;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.internal.vm.compiler;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.internal.vm.compiler.management;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.jartool;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.javadoc;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.jcmd;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.jconsole;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.jdeps;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.jdi;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.jdwp.agent;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.jfr;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.jlink;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.jpackage;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.jshell;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.jsobject;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.jstatd;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.localedata;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.management;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.management.agent;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.management.jfr;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.naming.dns;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.naming.rmi;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.net;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.nio.mapmode;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.random;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.sctp;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.security.auth;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.security.jgss;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.unsupported;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.unsupported.desktop;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.xml.dom;C:\Users\aoreyv\.jdks\openjdk-18!\jdk.zipfs;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-antlr.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-apache-bcel.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-apache-bsf.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-apache-log4j.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-apache-oro.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-apache-regexp.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-apache-resolver.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-apache-xalan2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-commons-logging.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-commons-net.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-jai.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-javamail.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-jdepend.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-jmf.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-jsch.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-junit.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-junit4.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-junitlauncher.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-launcher.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-netrexx.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-swing.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-testutil.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant-xz.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\idea_rt.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.variant" value="" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="os.name" value="Windows 11" />
+    <property name="java.vm.specification.version" value="18" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="US" />
+    <property name="sun.boot.library.path" value="C:\Users\aoreyv\.jdks\openjdk-18\bin" />
+    <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile C:\Users\aoreyv\Desktop\GitHub\Rational\build.xml test" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\aoreyv" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2022-03-22" />
+    <property name="java.home" value="C:\Users\aoreyv\.jdks\openjdk-18" />
+    <property name="basedir" value="C:\Users\aoreyv\Desktop\GitHub\Rational" />
+    <property name="file.separator" value="\" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.java.version" value="18" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="18+36-2087" />
+    <property name="user.name" value="aoreyv" />
+    <property name="ant.file" value="C:\Users\aoreyv\Desktop\GitHub\Rational\build.xml" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ant.core.lib" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="C:\Users\aoreyv\AppData\Local\Temp\" />
+    <property name="java.version" value="18" />
+    <property name="user.dir" value="C:\Users\aoreyv\Desktop\GitHub\Rational" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\ant" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="native.encoding" value="MS874" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="java.library.path" value="C:\Users\aoreyv\.jdks\openjdk-18\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\aoreyv\flutter\bin;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Users\aoreyv\flutter\bin;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32;;C:\Users\aoreyv\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aoreyv\.dotnet\tools;." />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vm.version" value="18+36-2087" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.version" value="62.0" />
+  </properties>
+  <testcase classname="RationalTest" name="testComparedTo" time="0.007" />
+  <testcase classname="RationalTest" name="testAdd" time="0.001" />
+  <testcase classname="RationalTest" name="testSubtract" time="0.001" />
+  <testcase classname="RationalTest" name="testToString" time="0.017" />
+  <testcase classname="RationalTest" name="testDivide" time="0.0" />
+  <testcase classname="RationalTest" name="testEquals" time="0.0" />
+  <testcase classname="RationalTest" name="testMultiply" time="0.001" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
